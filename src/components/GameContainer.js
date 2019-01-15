@@ -23,7 +23,7 @@ class Game extends Component {
     if (this.state.clicked.indexOf(id) > -1) {
       // Shuffle cards
       this.setState({
-        text: "You guess incorrectly, click another image to restart"
+        text: "You guessed incorrectly, click another image to restart"
       });
       this.setState({ topScore: this.state.score });
       this.setState({ score: 0 });
