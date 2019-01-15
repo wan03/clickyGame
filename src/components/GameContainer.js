@@ -27,6 +27,7 @@ class Game extends Component {
       });
       this.setState({ topScore: this.state.score });
       this.setState({ score: 0 });
+      this.setState({ clicked: [] });
 
       console.log("here");
     } else {
